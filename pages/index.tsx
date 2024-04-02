@@ -22,13 +22,14 @@ export default function Home() {
           <MdSearch className=' m-1 w-[2rem] h-[2rem] -ml-10 text-black'/>
         </div>
       </header>
-      <section className=' flex flex-col items-center w-full'>
-
-        <div className=' bg-slate-400 rounded-md w-[450px] h-32 mt-5 backdrop-blur-sm'></div>
-        <div className=' bg-slate-400 rounded-md w-[450px] h-32 mt-5 '></div>
-
-
-
+      <section className=' flex flex-col items-center w-full mt-10'>
+        <div className="flex-col ">
+          <div className=' w-[400px] h-32 mt-5 bg-slate-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10'>
+            <div className=' p-4 text-2xl ml-3'>Pizza</div>
+            <div className=" p-4 text-sm ml-3">Mozarella, Cheese, Tomato, and peproni</div>
+          </div>
+          <div className=' w-[400px] h-32 mt-5 bg-slate-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10'></div>
+        </div>
       </section>
     </main>
   );
