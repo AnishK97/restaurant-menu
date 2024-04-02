@@ -7,7 +7,7 @@ import { MdSearch } from 'react-icons/md'
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col  items-center justify-between p-24 font-sans`}
+      className={`flex min-h-screen flex-col  items-center p-24 font-sans`}
     >
       <header className="flex flex-col">
         <div className="flex text-3xl italic items-center justify-center">
@@ -22,6 +22,14 @@ export default function Home() {
           <MdSearch className=' m-1 w-[2rem] h-[2rem] -ml-10 text-black'/>
         </div>
       </header>
+      <section className=' flex flex-col items-center w-full'>
+
+        <div className=' bg-slate-400 rounded-md w-[450px] h-32 mt-5 backdrop-blur-sm'></div>
+        <div className=' bg-slate-400 rounded-md w-[450px] h-32 mt-5 '></div>
+
+
+
+      </section>
     </main>
   );
 }
